@@ -75,3 +75,14 @@ table{
     
     margin-left: 2cm;
 }
+#vardas
+{
+    text-align: right;
+    font-family: "Times New Roman", serif;
+    font-size: 1.5em;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    position: relative;
+    top: 1cm;
+    
+}
