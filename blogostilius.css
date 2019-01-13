@@ -1,0 +1,195 @@
+.antraste
+{
+    font-family: "Bookman Old Style"; 
+    font-variant: normal; 
+    font-weight: 700; 
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.fonas1
+{
+    background-color: black;
+    height: 550px;
+    
+      box-shadow: 0 35px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image
+{
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    display: block;
+}
+.centras
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image1
+{
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.column {
+    float: left;
+    position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Bookman Old Style"; 
+    font-weight: 700; 
+    font-size: 1.5em;
+    font-style: italic;
+    text-decoration: none;
+  }
+  .column1 {
+    float: left;
+    position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Bookman Old Style"; 
+    font-weight: 700; 
+    font-size: 1.5em;
+    font-style: italic;
+    text-decoration: none;
+  }
+ .bendras
+ {
+  float: center;
+  margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75%;
+  
+ }
+ .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    
+    
+  }
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 125px;
+    
+    
+    
+  }
+  .aboutme
+  {
+    font-family: "Bookman Old Style"; 
+    font-weight: 700; 
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  a
+  {
+    text-decoration: none;
+    color: white;
+    
+  }
+  .container
+  {
+      background-color: lightgrey;
+      width: 800px;
+      height: 200px;
+      margin: auto;
+      margin-bottom: 25px;
+      padding: 15px;
+      box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*box-shadow: 10px 10px 5px grey;*/
+    position: relative;
+  }
+  .tuscia
+  {
+      height:50px;
+  }
+  .tekstas
+  {
+    font-family: "Bookman Old Style"; 
+    font-weight: 700; 
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .paveikslelis
+  {
+      height: 100%;
+      float:left;
+      margin-right: 2%;
+  }
+  .texth
+  {
+    font-family: "Bookman Old Style"; 
+    font-weight: 700; 
+    font-size: 1.5em;
+    text-align: left;
+    color: black;
+    margin: 0px;
+    font-style: italic;
+    margin-top: 10px;
+    
+  }
+  .tekstoblokas
+  {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .tekstasp
+  {
+    font-family: "Bookman Old Style"; 
+    align-self: jusitfy;
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: justify;
+  text-justify: inter-word;
+  }
+  .data
+  {
+    font-family: "Bookman Old Style"; 
+    font-size: 1em;
+    text-align: right;
+    color: black;
+    font-style: italic;
+    position:absolute;
+    bottom: 0px;
+    right: 16px;
+  
+  }
+  .aprasymas
+  {
+  color: white;
+  font-family: "Bookman Old Style";  
+    font-size: 1em;
+    text-decoration: none;
+    text-align:center;
+    font-style: italic;
+  }
+  
+
+
