@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+       
+        <meta charset="utf-8">
+        <title>Testas</title>
+        <link rel="stylesheet" type="text/css" href="stilius.css">   
+    </head>
+    <body>
+        <h1 class="antraste">Įvairūs matematiniai pratimai</h1>
+        <p class="pastraipa">Įveskite skaičių ir sužinokite, ar jis dalus iš septynių</p>
+        <input id="v4" style="margin-left:2cm; background:#9198e5">
+        <button id="v5" onclick=ardalusisseptyniu()> Tikrink </button>
+        <p class="pastraipa">Įveskite skaičių ir sužinokite, ar jis dalus iš dviejų</p>
+        <input id="v1" style="margin-left:2cm; background:#9198e5">
+        <button id="v2" onclick=ardalusisdvieju()> Tikrink </button>
+        <p class="pastraipa">Truputį skaičiavimo</p>
+        <p style="margin-left:2cm; color: white;">81:9 =  <input id="v3"; style="background:#9198e5"> <button id="v5" onclick=dalyba1()> Tikrink </button> </p>
+        <p style="margin-left:2cm; color: white;">7X3 =  <input id="v6"; style="background:#9198e5"> <button id="v7" onclick=dalyba2()> Tikrink </button> </p>
+        <p style="margin-left:2cm; color: white;">7+6 =  <input id="v8"; style="background:#9198e5"> <button id="v9" onclick=dalyba3()> Tikrink </button> </p>
+        <p style="margin-left:2cm; color: white;">16-4 =  <input id="v10";  style="background:#9198e5"> <button id="v11" onclick=dalyba4()> Tikrink </button> </p>
+        <p class="pastraipa">Rask lygties sprendinį</p>
+        <p style="margin-left:2cm; color: white;"> 2x-8=20  <input id="v12"; style="background:#9198e5"> <button id="v13" onclick=lygtis1()> Tikrink </button> </p>
+        <p style="margin-left:2cm; color: white;"> 20-3x=8  <input id="v14"; style="background:#9198e5"> <button id="v15" onclick=lygtis2()> Tikrink </button> </p>
+        <p style="margin-left:2cm; color: white;"> 15*5+2x=75  <input id="v16"; style="background:#9198e5"> <button id="v17" onclick=lygtis3()> Tikrink </button> </p>
+
+      
+        <script>
+            function lygtis3()
+            {
+                var y = document.getElementById("v16").value;
+                if (y==0)
+                alert ("Teisingai");
+                else alert("Deja, bandykite dar kartą");
+            }
+            function lygtis2()
+            {
+                var y = document.getElementById("v14").value;
+                if (y==4)
+                alert ("Teisingai");
+                else alert("Deja, bandykite dar kartą");
+            }
+            function lygtis1()
+            {
+                var y = document.getElementById("v12").value;
+                if (y==14)
+                alert ("Teisingai");
+                else alert("Deja, bandykite dar kartą");
+            }
+           
+            function dalyba4()
+            {
+                var y = document.getElementById("v10").value;
+                if (y==12)
+                alert ("Teisingai");
+                else alert("Deja, bandykite dar kartą");
+            }
+            function dalyba3()
+            {
+                var y = document.getElementById("v8").value;
+                if (y==13)
+                alert ("Teisingai");
+                else alert("Deja, bandykite dar kartą");
+            }
+            function dalyba2()
+            {
+                var y = document.getElementById("v6").value;
+                if (y==21)
+                alert ("Teisingai");
+                else alert("Deja, bandykite dar kartą");
+            }
+            function dalyba1()
+            {
+                var y = document.getElementById("v3").value;
+                if (y==9)
+                alert ("Teisingai");
+                else alert("Deja, bandykite dar kartą");
+            }
+            function ardalusisseptyniu()
+            {
+                var y = document.getElementById("v4").value;
+                if (y%7==0)
+                alert ("Skaičius dalus iš septynių");
+                else alert("Deja, bandykite dar kartą");
+            }
+            function ardalusisdvieju()
+            {
+                var y = document.getElementById("v1").value;
+                if (y%2==0)
+                alert ("Skaičius dalus iš dviejų");
+                else alert("Deja, bandykite dar kartą");
+            }
+        </script>
+
+    </body>
+</html>

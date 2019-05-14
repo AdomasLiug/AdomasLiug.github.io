@@ -1,102 +1,20 @@
-a:hover {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-}
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-a
-{
-    text-decoration: none;
-    color: white;
-}
-b:hover {
-    color: black;
-    text-decoration: none;
-    font-size: 1em;
-}
-b:visited {
-    color: black;
-    text-decoration: none;
-}
-b
-{
-    text-decoration: none;
-    color: black;
-}
-table, td
-{
-    
-    text-align: center;
-}
-table{
-    margin: auto;
-    width: 50%;
-    height: 50%;
-}
-.pirmaeilute
-{
-    height: 40pt;
-    vertical-align: middle;
-    background-color: black;
-}
-.langelis
-{
-    background-color: black;
-}
 .antraste
 {
     text-align: center;
     font-family: "Times New Roman", serif;
-    font-style: italic;
     font-size: 3em;
     color: white;
-    background-color: black;
+    background-color:  #9198e5;
     position: relative;
-}
-.antraste2
-{
-    text-align: center;
-    font-family: "Times New Roman", serif;
-    font-style: italic;
-    font-size: 3em;
-    color: white;
-    background-color: black;
-    position: sticky;
-     top: 0;
-  padding: 5px;
-   
-   
-}
-.paveikslelis
-{
-    margin-left: 2cm;
-    
 }
 .pastraipa
 {
-    text-align: justify;
+    text-align: left;
     font-family: "Times New Roman", serif;
-    margin-left: 2cm;
-   margin-right: 2cm;
-}
-
-.sarasas
-{
-    font-family: "Times New Roman", serif;
-    
-    margin-left: 2cm;
-}
-#vardas
-{
-    text-align: right;
-    font-family: "Times New Roman", serif;
+    color: white;
     font-size: 1.5em;
-    margin-left: 1cm;
-    margin-right: 1cm;
-    position: relative;
-    top: 1cm;
-    
+    margin-left: 2cm;
+}
+body {
+    background: linear-gradient(0.25turn, #e66465, #9198e5);
 }
